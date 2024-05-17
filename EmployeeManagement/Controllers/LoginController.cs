@@ -20,9 +20,9 @@ namespace EmployeeManagement.Controllers
         private User AuthenticateUser(User user)
         {
             User _user = null;
-            if (user.UserName == "BSK" && user.Password == "Mahi143")
+            if (user.UserName == "BSK" && user.Password == "BSK143")
             {
-                _user = new User { UserName = "MAHIbsk" };
+                _user = new User { UserName = "BSKbsk" };
             }
             return _user;
         }
